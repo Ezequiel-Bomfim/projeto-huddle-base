@@ -1,0 +1,42 @@
+@media(max-width:1000px) {
+    body {
+        padding: 4rem;
+        background: var(--color-primary) url(../images/bg-mobile.svg) center center no-repeat;
+    }
+
+    header.menu {
+        margin: 0 0 2rem 0;
+    }
+
+    main.main {
+        flex-direction: column;
+        margin-top: 0;
+    }
+
+    main.main img {
+        width: 300px;
+        margin-bottom: 2rem;
+    }
+
+    main.main .about {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+
+    main.main .about h1 {
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+
+    main.main .about .btn button {
+        font-size: 1.3rem;
+        width: 20rem;
+        height: 4rem;
+    }
+
+    footer.social-media {
+        justify-content: center;
+        margin: 3rem 0 0 0;
+    }
+}
