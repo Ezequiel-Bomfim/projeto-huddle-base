@@ -1,7 +1,8 @@
 @media(max-width:1000px) {
     body {
         padding: 4rem;
-        background: var(--color-primary) url(../images/bg-mobile.svg) center center no-repeat;
+        background: var(--color-primary) url(../images/bg-mobile.svg) center top no-repeat;
+        background-size: contain;
     }
 
     header.menu {
@@ -35,8 +36,14 @@
         height: 4rem;
     }
 
-    footer.social-media {
+    footer nav ul.social-media {
         justify-content: center;
         margin: 3rem 0 0 0;
+    }
+}
+
+@media(max-width:700px) {
+    footer nav ul.social-media {
+        margin-top: 5rem;
     }
 }
